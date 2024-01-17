@@ -1,0 +1,166 @@
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif ;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 60px;
+    box-shadow:  0px 0px 20px 5px rgba(31, 136, 197, 0.979);
+}
+#logotip{
+    width: 80px;
+    height: 60px;
+}
+
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.zag{
+    margin-left: 50px;
+    color:   rgba(31, 136, 197, 0.979);
+}
+
+.ccolletion{
+  display: flex;  
+  justify-content: center;
+}
+
+hr{
+    height: 1px;
+    color: red;
+    width: 99%;
+}
+.hov_img{
+    transition:all 0.5s ease-in;
+}
+.hov_img:hover{
+transform: scale(1.1);
+}
+
+.menuhad{
+    display: flex;
+    justify-content: center;
+}
+
+.link_head{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px 30px;
+    transition: all 0.3s ease-out;
+}
+
+.link_head:hover{
+transform: scale(1.1);
+color:  rgba(31, 136, 197, 0.979);
+}
+.link_log{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form_form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.form{
+    width: 300px;
+    height: auto;
+    box-shadow:  0px 0px 20px 5px  rgba(31, 136, 197, 0.979);
+    padding: 20px;
+}
+.login-input{
+    height: 35px;
+    border: 2px solid black;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.login-button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background: rgba(31, 136, 197, 0.979);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.review-item{
+    height: 30px;
+    width: 950px;
+    padding-top:10px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.popular-row{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+  }
+  .popular-card{
+    margin: 50px;
+  
+    padding: 10px;
+    width: 450px;
+    height:auto;
+    text-align: left;
+    box-shadow:0px 0px 15px 1px black;
+  }
+
+  .imgbooks{
+    width: 450px;
+    height: 500px;
+  }
+  .tabletka{
+    width: 200px;
+    height: 100px;
+  }
+
+  .popular-card2{
+    margin: 50px;
+  
+    padding: 10px;
+    width: 950px;
+    height:auto;
+    text-align: left;
+    box-shadow:0px 0px 15px 1px black;
+  }
+
+  .imgbooks2{
+    width: 950px;
+    height: 500px;
+  }
+
+
+
+
+  #vekodnaya-prokhodna {
+    width: 100%;
+    padding: 6px 0;
+    height: 28px;
+    line-height: 40px;
+    text-indent: 5px;
+    margin: 0 0 12px 0;
+    border-radius: 3px;
+    border: 1px solid #888383;
+    font-size: 18px;
+  }
